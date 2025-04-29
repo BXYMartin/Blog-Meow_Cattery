@@ -1,5 +1,3 @@
-Here you can say lots of fun things about your site.
+A place to share our collected statistics on the growth of kittens in their early days.
 
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Powered by data collected by breeders on a daily basis.
