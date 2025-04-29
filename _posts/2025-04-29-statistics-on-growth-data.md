@@ -4,8 +4,8 @@ Visualized data collected from 2023/07/07 - 2025/04/29, 1458 records from 29 kit
 
 ### Growth Trend
 
-{% include _posts/2025-04-29_growth-curve.html %}
+{% include 2025-04-29_growth-curve.html %}
 
 ### Born Weights Distribution
 
-{% include _posts/2025-04-29_born-weights-distribution.html %}
+{% include 2025-04-29_born-weights-distribution.html %}
