@@ -34,6 +34,12 @@ titles_from_headings:
   strip_title: true
   collections: true
 
+include:
+   - _includes
+   - _posts
+   - _layouts
+   - _graphs
+
 defaults:
   - scope:
       path: ""
