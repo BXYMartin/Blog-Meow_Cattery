@@ -30,3 +30,5 @@ We have also seen a strong correlation between the weight of birth to the rate o
 {% include_relative _graphs/2025-04-29_growth-curve.html %}
 
 {% include_relative _graphs/2025-04-29_born-weights-distribution.html %}
+
+We have seen a trend that male kittens tend to have heavier body weight when they were born.
