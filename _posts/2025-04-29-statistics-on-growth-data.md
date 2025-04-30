@@ -4,14 +4,14 @@ Visualized data collected from 2023/07/07 - 2025/04/29, 1458 records of 29 kitte
 
 ### Mixed-effect Model of Growth
 
-Null Hypothesis \(H_0\)
+Null Hypothesis \\(H_0\\)
 {::nomarkdown}
 \begin{equation*}
 weight \sim (1 \mid id)
 \end{equation*}
 {:/}
 
-Alternative Hypothesis \(H_1\)
+Alternative Hypothesis \\(H_1\\)
 
 {::nomarkdown}
 \begin{equation*}
