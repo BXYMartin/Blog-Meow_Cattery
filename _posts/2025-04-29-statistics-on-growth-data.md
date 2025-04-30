@@ -10,7 +10,7 @@ $weight ~ (1 | id)$
 
 Alternative Hypothesis
 
-$weight ~ age_in_days + birth_weight + hair_type + hair_color + month_of_birth + (1 | id)$
+$weight ~ age\_in\_days + birth\_weight + hair\_type + hair\_color + month\_of\_birth + (1 | id)$
 
 ### Visualization
 
