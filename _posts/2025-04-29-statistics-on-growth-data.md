@@ -1,17 +1,17 @@
 ## Statistics on Growth Data
 
-Visualized data collected from 2023/07/07 - 2025/04/29, 1458 records from 29 kittens from 9 litters.
+Visualized data collected from 2023/07/07 - 2025/04/29, 1458 records of 29 kittens from 9 litters.
 
 ### Mixed-effect Model of Growth
 
-Null Hypothesis $H_0$: 
+Null Hypothesis <span>$H_0$</span>: 
 {::nomarkdown}
 \begin{equation*}
 weight \sim (1 \mid id)
 \end{equation*}
 {:/}
 
-Alternative Hypothesis $H_1$:
+Alternative Hypothesis <span>$H_1$</span>:
 
 {::nomarkdown}
 \begin{equation*}
@@ -20,6 +20,10 @@ weight \sim ageInDays + birthWeight + hairType + hairColor + monthOfBirth + (1 \
 {:/}
 
 {% include_relative _graphs/2025-04-29_model-fitness.html %}
+
+We have observed a very strong correlation between the age (days) and the recorded weights, with an average growth of **11.71 g/day**.
+
+We have also seen a strong correlation between the weight of birth to the rate of growth for the kittens in the first 60 days. From the confidence interval of `birth_weight`, we can see that kittens born with a heavier body weight tend to grow faster than the other kittens.
 
 ### Visualization
 
