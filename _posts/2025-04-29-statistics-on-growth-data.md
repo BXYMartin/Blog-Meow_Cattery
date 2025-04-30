@@ -4,13 +4,157 @@ Visualized data collected from 2023/07/07 - 2025/04/29, 1458 records from 29 kit
 
 ### Mixed-effect Model of Growth
 
-Null Hypothesis $H_0$
+Null Hypothesis $H_0$: $weight \sim (1 \mid id)$
 
-$weight \sim (1 \mid id)$
+Alternative Hypothesis $H_1$: $weight \sim ageInDays + birthWeight + hairType + hairColor + monthOfBirth + (1 \mid id)$
 
-Alternative Hypothesis $H_1$
+<iframe>
+  <html><head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+<style>
+html, body { background-color: white; }
+table { border-collapse:collapse; border:none; }
+caption { font-weight: bold; text-align:left; }
+td {  }
+.thead { border-top: double; text-align:center; font-style:normal; font-weight:bold; padding:0.2cm; }
+.tdata { padding:0.2cm; text-align:left; vertical-align:top; }
+.arc { background-color:#f2f2f2; }
+.summary { padding-top:0.1cm; padding-bottom:0.1cm; }
+.summarydata { text-align:left; }
+.fixedparts { font-weight:bold; text-align:left; }
+.randomparts { font-weight:bold; text-align:left; padding-top:.8em; }
+.zeroparts { font-weight:bold; text-align:left; padding-top:.8em; }
+.simplexparts { font-weight:bold; text-align:left; padding-top:.8em; }
+.lasttablerow { border-bottom: double; }
+.firsttablerow {  }
+.firstsumrow { border-top:1px solid; }
+.labelcellborder { border-bottom:1px solid; }
+.depvarhead { text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal; }
+.depvarheadnodv { border-top: double; text-align:center; border-bottom:1px solid; font-style:italic; font-weight:normal; }
+.leftalign { text-align:left; }
+.centeralign { text-align:center; }
+.firsttablecol { text-align:left; }
+.footnote { font-style:italic; border-top:double black; text-align:right; }
+.subtitle { font-weight: normal; }
+.modelcolumn1 {  }
+.modelcolumn2 {  }
+.modelcolumn3 {  }
+.modelcolumn4 {  }
+.modelcolumn5 {  }
+.modelcolumn6 {  }
+.modelcolumn7 {  }
+.col1 {  }
+.col2 {  }
+.col3 {  }
+.col4 {  }
+.col5 {  }
+.col6 {  }
+</style>
+</head>
+<body>
+<table>
+  <tbody><tr>
+    <th class="thead firsttablerow firsttablecol col1">&nbsp;</th>
+    <th colspan="3" class="thead firsttablerow">weight</th>
+  </tr>
+  <tr>
+    <td class="depvarhead firsttablerow firsttablecol col1">Predictors</td>
+    <td class="depvarhead firsttablerow col2">Estimates</td>
+    <td class="depvarhead firsttablerow col3">CI</td>
+    <td class="depvarhead firsttablerow col4">p</td>
+  </tr>
+  <tr>
+    <td class="tdata firsttablecol col1">(Intercept)</td>
+    <td class="tdata centeralign modelcolumn1 col2">-78.87</td>
+    <td class="tdata centeralign modelcolumn1 col3">-162.53&nbsp;–&nbsp;4.79</td>
+    <td class="tdata centeralign modelcolumn1 col4">0.065</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">age_in_days</td>
+    <td class="tdata centeralign modelcolumn1 col2">11.71</td>
+    <td class="tdata centeralign modelcolumn1 col3">11.62&nbsp;–&nbsp;11.80</td>
+    <td class="tdata centeralign modelcolumn1 col4"><strong>&lt;0.001</strong></td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">birth_weight</td>
+    <td class="tdata centeralign modelcolumn1 col2">1.82</td>
+    <td class="tdata centeralign modelcolumn1 col3">1.00&nbsp;–&nbsp;2.64</td>
+    <td class="tdata centeralign modelcolumn1 col4"><strong>&lt;0.001</strong></td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">hair_colorChocolate Gold</td>
+    <td class="tdata centeralign modelcolumn1 col2">-1.88</td>
+    <td class="tdata centeralign modelcolumn1 col3">-29.72&nbsp;–&nbsp;25.95</td>
+    <td class="tdata centeralign modelcolumn1 col4">0.895</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">hair_colorGold</td>
+    <td class="tdata centeralign modelcolumn1 col2">16.93</td>
+    <td class="tdata centeralign modelcolumn1 col3">-13.06&nbsp;–&nbsp;46.92</td>
+    <td class="tdata centeralign modelcolumn1 col4">0.268</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">hair_colorLilac Gold</td>
+    <td class="tdata centeralign modelcolumn1 col2">20.29</td>
+    <td class="tdata centeralign modelcolumn1 col3">-14.32&nbsp;–&nbsp;54.90</td>
+    <td class="tdata centeralign modelcolumn1 col4">0.250</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">hair_typeShort Hair</td>
+    <td class="tdata centeralign modelcolumn1 col2">21.09</td>
+    <td class="tdata centeralign modelcolumn1 col3">-8.45&nbsp;–&nbsp;50.62</td>
+    <td class="tdata centeralign modelcolumn1 col4">0.162</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">month_of_birthAugust</td>
+    <td class="tdata centeralign modelcolumn1 col2">-5.00</td>
+    <td class="tdata centeralign modelcolumn1 col3">-29.00&nbsp;–&nbsp;19.01</td>
+    <td class="tdata centeralign modelcolumn1 col4">0.683</td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">month_of_birthJuly</td>
+    <td class="tdata centeralign modelcolumn1 col2">-48.88</td>
+    <td class="tdata centeralign modelcolumn1 col3">-86.24&nbsp;–&nbsp;-11.52</td>
+    <td class="tdata centeralign modelcolumn1 col4"><strong>0.010</strong></td>
+</tr>
+  <tr>
+    <td class="tdata firsttablecol col1">month_of_birthMarch</td>
+    <td class="tdata centeralign modelcolumn1 col2">-32.95</td>
+    <td class="tdata centeralign modelcolumn1 col3">-73.03&nbsp;–&nbsp;7.13</td>
+    <td class="tdata centeralign modelcolumn1 col4">0.107</td>
+</tr>
+  <tr>
+    <td colspan="4" class="randomparts">Random Effects</td>
+  </tr>
 
-$weight \sim ageInDays + birthWeight + hairType + hairColor + monthOfBirth + (1 \mid id)$
+  <tr>
+    <td class="tdata leftalign summary">σ<sup>2</sup></td>
+    <td class="tdata summary summarydata" colspan="3">663.97</td>
+  </tr>
+
+  <tr>
+    <td class="tdata leftalign summary">τ<sub>00</sub> <sub>id</sub></td>
+    <td class="tdata summary summarydata" colspan="3">761.93</td>
+
+  </tr><tr>
+    <td class="tdata leftalign summary">ICC</td>
+    <td class="tdata summary summarydata" colspan="3">0.53</td>
+
+  </tr><tr>
+    <td class="tdata leftalign summary">N <sub>id</sub></td>
+    <td class="tdata summary summarydata" colspan="3">32</td>
+  </tr><tr>
+    <td class="tdata leftalign summary firstsumrow">Observations</td>
+    <td class="tdata summary summarydata firstsumrow" colspan="3">1458</td>
+  </tr>
+  <tr>
+    <td class="tdata leftalign summary">Marginal R<sup>2</sup> / Conditional R<sup>2</sup></td>
+    <td class="tdata summary summarydata" colspan="3">0.961 / 0.982</td>
+  </tr>
+
+</tbody></table>
+</body></html>
+</iframe>
 
 ### Visualization
 
