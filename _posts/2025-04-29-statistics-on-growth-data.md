@@ -6,11 +6,11 @@ Visualized data collected from 2023/07/07 - 2025/04/29, 1458 records from 29 kit
 
 Null Hypothesis
 
-$weight ~ (1 | id)$
+$weight \sim (1 \mid id)$
 
 Alternative Hypothesis
 
-$weight ~ age\_in\_days + birth\_weight + hair\_type + hair\_color + month\_of\_birth + (1 | id)$
+$weight \sim age\_in\_days + birth\_weight + hair\_type + hair\_color + month\_of\_birth + (1 \mid id)$
 
 ### Visualization
 
