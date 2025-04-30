@@ -4,17 +4,13 @@ Visualized data collected from 2023/07/07 - 2025/04/29, 1458 records from 29 kit
 
 ### Mixed-effect Model of Growth
 
-Null Hypothesis
+Null Hypothesis $H_0$
 
-\begin{equation*}
-weight \sim (1 \mid id)
-\end{equation*}
+$weight \sim (1 \mid id)$
 
-Alternative Hypothesis
+Alternative Hypothesis $H_1$
 
-\begin{equation*}
-weight \sim age\_in\_days + birth\_weight + hair\_type + hair\_color + month\_of\_birth + (1 \mid id)
-\end{equation*}
+$weight \sim ageInDays + birthWeight + hairType + hairColor + monthOfBirth + (1 \mid id)$
 
 ### Visualization
 
